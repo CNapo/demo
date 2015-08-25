@@ -1,0 +1,8 @@
+---
+applications:
+- name: napo
+  memory: 512M
+  instances: 1
+  path: Sample-0.0.1-SNAPSHOT.war
+env:
+    SPRING_PROFILES_DEFAULT: test
